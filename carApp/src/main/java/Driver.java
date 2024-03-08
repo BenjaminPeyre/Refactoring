@@ -2,13 +2,14 @@ public class Driver {
     private String name;
     private int years;
 
+    private static final int ADULT_AGE = 18;
     public Driver(String name, int years) {
         this.name = name;
         this.years = years;
     }
 
     public boolean isAdult() {
-        return years >= 10;
+        return years >= ADULT_AGE;
     }
 
     // !car variable!
