@@ -4,24 +4,24 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class VoitureTest {
 
-    private Voiture voiture;
+    private Car voiture;
 
     @BeforeEach
     public void setUp() {
-        voiture = new Voiture("Sedan", "Bleu");
+        voiture = new Car("Sedan", "Bleu");
     }
 
     @Test
     public void testAccelerer() {
-        voiture.accelerer();
-        assertThat(voiture.getVitesse()).isEqualTo(10);
+        voiture.speedUp();
+        assertThat(voiture.getSpeed()).isEqualTo(10);
     }
 
     @Test
     public void testRalentir() {
-        voiture.accelerer();
-        voiture.ralentir();
-        assertThat(voiture.getVitesse()).isEqualTo(0);
+        voiture.speedUp();
+        voiture.slowDown();
+        assertThat(voiture.getSpeed()).isEqualTo(0);
     }
 
     @Test

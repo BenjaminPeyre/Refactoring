@@ -9,3 +9,9 @@ U
 %carApp/src/main/java/Application.java,d\2\d242b76280348ce5d9852ef4d9aa9cf9ae74ce9d
 M
 carApp/src/main/java/Car.java,9\d\9daadf1fcb0388e8d06193913507ae4c583052fb
+C
+carApp/build.gradle,7\1\71440c47cb47dbd8493f16c0364745adf113b0d1
+F
+carApp/settings.gradle,f\5\f577897cde43fcd557fcaf28860ac025157e686d
+>
+carApp/gradlew,0\c\0c9908e4dd179c39e8102a249ceeb83fdefa2332

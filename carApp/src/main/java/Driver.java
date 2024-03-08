@@ -12,7 +12,7 @@ public class Driver {
     }
 
     // !car variable!
-    public void startCar(Voiture car) {
+    public void startCar(Car car) {
         if (isAdult()) {
             System.out.println(name + " démarre la voiture.");
         } else {
@@ -20,11 +20,11 @@ public class Driver {
         }
     }
 
-    public void stopCar(Voiture car) {
+    public void stopCar(Car car) {
         System.out.println(name + " arrête la voiture.");
     }
 
-    public void changeSpeed(Voiture car, int newSpeed) {
+    public void changeSpeed(Car car, int newSpeed) {
         System.out.println(name + " change la vitesse de la voiture à " + newSpeed);
         int currentSpeed;
         if (car.getSpeed() >= newSpeed) {
